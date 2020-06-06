@@ -1,0 +1,10 @@
+ja:
+  activerecord:
+    models:
+      admin_user: "管理者"
+      user: "ユーザー"
+      comment: "コメント"
+    attributes:
+      user:
+        name: "名前"
+        email: "Eメール"
