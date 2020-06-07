@@ -1,10 +1,10 @@
 <div class="container">
-    <div class="gyms-items">
+    <ul class="gyms-items">
         <% @gyms.each do |gym|%>
-            <div class="gym-item">
-                <%= gym.name %>
-                <%= gym.content%>
-            </div>
+            <li class="gyms-item">
+                <p><%= link_to gym.name, gym_path(gym) %></p>
+                <p><%= gym.content%></p>
+            </li>
         <% end %>
-    </div>
+    </ul>
 </div>
